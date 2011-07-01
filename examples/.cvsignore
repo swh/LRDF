@@ -1,0 +1,15 @@
+.deps
+.libs
+Makefile
+Makefile.in
+add_test
+dumpstatements
+export_test
+instances_test
+multi_test
+remove_test
+scale_test
+setting_test
+showdefaults
+showtaxonomy
+subclass_test

@@ -1,0 +1,16 @@
+Makefile.in
+Makefile
+aclocal.m4
+autom4te.cache
+config.h.in
+config.h
+config.log
+config.status
+configure
+libtool
+lrdf.pc
+lrdf.py
+lrdf_wrap.c
+stamp-h.in
+stamp-h
+stamp-h1
