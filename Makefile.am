@@ -1,3 +1,5 @@
+ACLOCAL_AMFLAGS = -I m4
+
 MAINTAINERCLEANFILES = aclocal.m4 config.guess config.h config.log \
 			   config.status config.sub configure depcomp
 			   install-sh libtool ltmain.sh Makefile Makefile.in

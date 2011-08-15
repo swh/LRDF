@@ -1,5 +1,6 @@
 # Process this file with autoconf to produce a configure script.
 AC_INIT(src/lrdf.c)
+AC_CONFIG_MACRO_DIR([m4])
 AM_CONFIG_HEADER(config.h)
 AM_INIT_AUTOMAKE(liblrdf, 0.4.0)
 
