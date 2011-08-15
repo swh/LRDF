@@ -1,6 +1,13 @@
 #!/bin/sh
 
-libtoolize --force || {
+gprefix=`which glibtoolize 2>&1 > /dev/null`
+if [ $? -eq 0 ]; then
+  LIBTOOLIZE=glibtoolize
+else
+  LIBTOOLIZE=libtoolize
+fi
+
+$LIBTOOLIZE --force || {
 	echo "libtoolize failed, exiting..."
 	exit 1
 }
