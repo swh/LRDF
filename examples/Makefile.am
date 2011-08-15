@@ -1,6 +1,8 @@
-noinst_PROGRAMS = showdefaults showtaxonomy dumpstatements export_test \
+TESTS = showtaxonomy dumpstatements export_test \
 	subclass_test add_test instances_test remove_test multi_test \
 	setting_test scale_test
+
+check_PROGRAMS = showdefaults $(TESTS) remove_test
 
 LIBS = ../src/liblrdf.la
 
