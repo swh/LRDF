@@ -19,7 +19,7 @@ AM_PROG_LIBTOOL
 AC_HEADER_STDC
 AC_CHECK_HEADERS([errno.h limits.h stdlib.h string.h unistd.h])
 
-PKG_CHECK_MODULES(RAPTOR, raptor >= 0.9.11)
+PKG_CHECK_MODULES(RAPTOR, raptor2 >= 2.0.0)
 
 # Checks for typedefs, structures, and compiler characteristics.
 AC_C_CONST
