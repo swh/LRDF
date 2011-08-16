@@ -5,7 +5,6 @@
 #include <unistd.h>
 
 #include "lrdf.h"
-#include "lrdf_md5.h"
 
 typedef struct _lrdf_uri_list {
     char *uri;

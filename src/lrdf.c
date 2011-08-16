@@ -7,9 +7,9 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <sys/time.h>
+#include <openssl/md5.h>
 
 #include "lrdf.h"
-#include "lrdf_md5.h"
 
 /* XXX The size if that hash table, should be dyunamic, but this will do for
  * now */
@@ -61,7 +61,7 @@ static inline lrdf_hash lrdf_gen_hash(const char *str)
 {
     lrdf_hash data[2];
 
-    md5_buffer(str, strlen(str), data);
+    MD5((unsigned char *)str, strlen(str), (unsigned char *)data);
 
     return data[0];
 }
