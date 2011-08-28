@@ -2,7 +2,7 @@
 AC_INIT(src/lrdf.c)
 AC_CONFIG_MACRO_DIR([m4])
 AM_CONFIG_HEADER(config.h)
-AM_INIT_AUTOMAKE(liblrdf, 0.4.0)
+AM_INIT_AUTOMAKE(liblrdf, 0.5.0)
 
 LRDF_LIBTOOL_VERSION=2:0:0
 
