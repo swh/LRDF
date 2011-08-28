@@ -8,3 +8,5 @@
 	Fixed some memory leaks: know remaining leak in the triple list allocator.
 
 0.4.0	Better genid creation.
+
+0.5.0	Use raptor2 and openssl for MD5
