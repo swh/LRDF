@@ -6,5 +6,6 @@ includedir=@includedir@
 Name: liblrdf
 Version: @VERSION@
 Description: liblrdf, a lightweight RDF library with extensions for LADSPA
-Libs: -L${libdir} @RAPTOR_LIBS@ -llrdf -lcrypto
+Libs: -L${libdir} -llrdf
+Libs.Private: @RAPTOR_LIBS@ -lcrypto
 Cflags: @RAPTOR_CFLAGS@ -I${includedir}
