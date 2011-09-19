@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#include <raptor2/raptor2.h>
+#include <raptor.h>
 #include <string.h>
 #include <sys/types.h>
 
