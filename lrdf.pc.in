@@ -7,5 +7,5 @@ Name: liblrdf
 Version: @VERSION@
 Description: liblrdf, a lightweight RDF library with extensions for LADSPA
 Libs: -L${libdir} -llrdf
-Libs.Private: @RAPTOR_LIBS@ -lcrypto
+Libs.private: @RAPTOR_LIBS@ -lcrypto
 Cflags: @RAPTOR_CFLAGS@ -I${includedir}
