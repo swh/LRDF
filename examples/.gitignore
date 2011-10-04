@@ -1,7 +1,6 @@
 .deps
 .libs
 Makefile
-Makefile.in
 add_test
 dumpstatements
 export_test
@@ -13,3 +12,4 @@ setting_test
 showdefaults
 showtaxonomy
 subclass_test
+*.o

@@ -1,4 +1,4 @@
-CFLAGS = -Wall -g -I@top_srcdir@
+AM_CFLAGS = -Wall -g -I@top_srcdir@ @AM_CFLAGS@
 
 lib_LTLIBRARIES = liblrdf.la
 noinst_HEADERS = ladspa.h

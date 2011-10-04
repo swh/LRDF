@@ -4,7 +4,7 @@ TESTS = showtaxonomy dumpstatements export_test \
 
 check_PROGRAMS = showdefaults $(TESTS) remove_test
 
-AM_CPPFLAGS = -I$(top_srcdir)
+AM_CPPFLAGS = -I$(top_srcdir) -I$(top_srcdir)/src
 LIBS = ../src/liblrdf.la
 
 pkgdata_DATA = ladspa.rdfs
