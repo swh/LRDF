@@ -1,1 +1,1 @@
-/usr/bin/../share/aclocal/ltsugar.m4
+/home/ardour/linux-i386/gtk/inst/share/aclocal/ltsugar.m4

@@ -1,1 +1,1 @@
-/usr/bin/../share/aclocal/ltversion.m4
+/home/ardour/linux-i386/gtk/inst/share/aclocal/ltversion.m4
