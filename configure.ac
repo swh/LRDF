@@ -19,9 +19,6 @@ AM_PROG_LIBTOOL
 AC_HEADER_STDC
 AC_CHECK_HEADERS([errno.h limits.h stdlib.h string.h unistd.h])
 
-# Checks for MD5 in libcrypto
-AC_CHECK_LIB([crypto], [MD5])
-
 PKG_CHECK_MODULES(RAPTOR, raptor2 >= 2.0.0)
 
 # Checks for typedefs, structures, and compiler characteristics.
