@@ -1,1 +1,1 @@
-/usr/bin/../share/aclocal/lt~obsolete.m4
+/home/ardour/linux-i386/gtk/inst/share/aclocal/lt~obsolete.m4

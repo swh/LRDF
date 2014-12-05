@@ -1,1 +1,1 @@
-/usr/bin/../share/libtool/config/ltmain.sh
+/home/ardour/linux-i386/gtk/inst/share/libtool/config/ltmain.sh

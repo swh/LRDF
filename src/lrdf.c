@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <sys/time.h>
-#include <openssl/md5.h>
+#include "md5.h"
 
 #include "lrdf.h"
 
@@ -61,7 +61,10 @@ static inline lrdf_hash lrdf_gen_hash(const char *str)
 {
     lrdf_hash data[2];
 
-    MD5((unsigned char *)str, strlen(str), (unsigned char *)data);
+    MD5_CTX ctx;
+    MD5_Init(&ctx);
+    MD5_Update(&ctx, str, strlen(str));
+    MD5_Final((unsigned char*)data, &ctx);
 
     return data[0];
 }
