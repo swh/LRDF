@@ -1,1 +1,0 @@
-/home/ardour/linux-i386/gtk/inst/share/aclocal/ltoptions.m4

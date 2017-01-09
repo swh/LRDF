@@ -1,6 +1,7 @@
 .deps
 .libs
 Makefile
+Makefile.in
 liblrdf.la
 lrdf.lo
 lrdf_multi.lo
